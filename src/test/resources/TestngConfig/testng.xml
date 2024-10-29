@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<groups>
+			<run>
+				<include name="SignOnTest"></include>
+			</run>
+		</groups>
+		<packages>
+			<package name="com.careautomate.tests"></package>
+		</packages>
+	</test>
+</suite>

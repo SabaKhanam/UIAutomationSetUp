@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-28T21:07:29 IST" name="Suite" finished-at="2024-10-28T21:07:44 IST" duration-ms="15744">
+    <groups>
+      <group name="SignOnTest">
+        <method signature="SignUpTest.TC_SignUpWIthValidDetails()[pri:0, instance:com.careautomate.tests.SignUpTest@3e78b6a5]" name="TC_SignUpWIthValidDetails" class="com.careautomate.tests.SignUpTest"/>
+      </group> <!-- SignOnTest -->
+    </groups>
+    <test started-at="2024-10-28T21:07:29 IST" name="Test" finished-at="2024-10-28T21:07:44 IST" duration-ms="15744">
+      <class name="com.careautomate.tests.SignUpTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.careautomate.tests.SignUpTest@3e78b6a5]" started-at="2024-10-28T21:07:28 IST" name="setup" finished-at="2024-10-28T21:07:29 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.careautomate.tests.SignUpTest@3e78b6a5]" started-at="2024-10-28T21:07:29 IST" name="setup" finished-at="2024-10-28T21:07:34 IST" duration-ms="5459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_SignUpWIthValidDetails()[pri:0, instance:com.careautomate.tests.SignUpTest@3e78b6a5]" started-at="2024-10-28T21:07:35 IST" name="TC_SignUpWIthValidDetails" finished-at="2024-10-28T21:07:43 IST" duration-ms="8607" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at com.careautomate.pages.SignUpPage.validateSignUpPage(SignUpPage.java:77)
+at com.careautomate.tests.SignUpTest.TC_SignUpWIthValidDetails(SignUpTest.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SignUpWIthValidDetails -->
+        <test-method is-config="true" signature="tearup(org.testng.ITestResult)[pri:0, instance:com.careautomate.tests.SignUpTest@3e78b6a5]" started-at="2024-10-28T21:07:43 IST" name="tearup" finished-at="2024-10-28T21:07:44 IST" duration-ms="553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_SignUpWIthValidDetails status=FAILURE method=SignUpTest.TC_SignUpWIthValidDetails()[pri:0, instance:com.careautomate.tests.SignUpTest@3e78b6a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.careautomate.tests.SignUpTest@3e78b6a5]" started-at="2024-10-28T21:07:44 IST" name="teardown" finished-at="2024-10-28T21:07:44 IST" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:com.careautomate.tests.SignUpTest@3e78b6a5]" started-at="2024-10-28T21:07:45 IST" name="tear" finished-at="2024-10-28T21:07:45 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- com.careautomate.tests.SignUpTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

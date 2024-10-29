@@ -1,0 +1,1 @@
+{"uuid":"c00da62a-afb4-4c98-ab28-a58aadd28fa8","name":"com.careautomate.tests.SignUpTest","children":["fa6a3997-85a7-4d97-b873-03efb926d94b"],"befores":[],"afters":[{"name":"teardown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1730129864448,"stop":1730129864964}],"start":1730129849228,"stop":1730129864998}
